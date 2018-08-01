@@ -1,15 +1,14 @@
 .container {
-  background: red;
   width: 800px;
   margin: auto;
   margin-top: 50px;
 }
 
 .phoneImage {
-  height: 200px;
-  width: 450px;
+  text-align: center;
+  width: 440px;
   display: inline-block;
-  background-color: green;
+  border: 2px solid black;
 }
 
 .signUpForm {
@@ -17,4 +16,9 @@
   width: 350px;
   display: inline-block;
   background-color: blue;
+}
+
+.phoneImage img {
+  width: 400px;
+  margin-top: 40px;
 }
